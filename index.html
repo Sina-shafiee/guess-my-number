@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <title>Guess My Number!</title>
+  </head>
+  <body class="p-1 sm:p-4 bg-[#222] font-mono">
+    <div class="container mx-auto">
+      <header class="text-white mt-4 mx-8 text-sm sm:text-base lg:text-xl">
+        <div class="flex items-center justify-between">
+          <p class="">(بین عدد 1 تا 20)</p>
+          <button
+            class="reset bg-indigo-50 text-slate-800 px-2 py-1 sm:py-2 sm:px-4"
+          >
+            تلاش محدد!
+          </button>
+        </div>
+        <h1
+          class="text-center mt-16 text-2xl sm:text-3xl lg:text-4xl font-extralight lg:mt-10"
+        >
+          شمارمو حدس بزن 🙂
+        </h1>
+        <div
+          class="number relative mt-11 text-slate-800 flex items-center justify-center text-4xl mx-auto w-20 h-20 sm:w-28 sm:h-28 lg:w-32 lg:h-32 bg-indigo-50"
+        >
+          ❓
+
+          <hr class="mx-auto fixed w-full" />
+        </div>
+      </header>
+      <main
+        class="text-indigo-50 flex justify-center gap-10 px-2 items-center mt-16 lg:mt-10 sm:gap-28 lg:gap-36"
+      >
+        <section class="flex flex-col justify-center items-center">
+          <input
+            type="number"
+            class="guess bg-indigo-50 text-center w-24 h-20 sm:w-32 sm:h-28 lg:w-40 lg:h-28 text-3xl text-slate-800"
+          />
+          <button
+            class="check mt-5 text-xs sm:text-base lg:text-xl bg-indigo-50 text-slate-800 px-1 py-1"
+          >
+            امتحان کن !
+          </button>
+        </section>
+        <section
+          class="flex flex-col h-20 sm:h-28 lg:h-36 justify-between text-sm sm:text-base lg:text-xl"
+        >
+          <p class="message">حدس بزنید ...</p>
+          <p class="label-score">💯 امتیاز : <span class="score">20</span></p>
+          <p class="label-highscore">
+            🥇 بالاترین امتیاز شما : <span class="highscore">0</span>
+          </p>
+        </section>
+      </main>
+      <footer>
+        <a
+          class="text-indigo-50 cursor-pointer fixed bottom-4 text-3xl sm:text-4xl left-10 lg:left-28"
+          target="_blank"
+          href="https://t.me/i4mb3tt3r"
+        >
+          <i class="fab fa-telegram"></i
+        ></a>
+      </footer>
+    </div>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
