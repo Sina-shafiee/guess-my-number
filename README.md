@@ -1,5 +1,5 @@
 # guess-my-number
-simple use case of java script
+simple use case of javascript
 to work with dom
 # 
 Coded with pure js and tailwindcss 
